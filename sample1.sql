@@ -112,14 +112,6 @@ SELECT student.roll AS ROLL, student.name AS Name, exam.exam_no AS 'Exam ID'
 FROM absence INNER JOIN exam INNER JOIN student
 ON student.roll = absence.roll AND absence.date = exam.date;
 
-
-
-
-
-   
-
-
-
 DROP TABLE absence;
 
 
